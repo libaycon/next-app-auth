@@ -50,6 +50,10 @@ const config: Config = {
           foreground: "hsl(var(--card-foreground))",
         },
       },
+      fontSize: {
+        'tiny': "0.5rem",
+        'xxs': '0.625rem'
+      },
       borderRadius: {
         lg: "var(--radius)",
         md: "calc(var(--radius) - 2px)",
